@@ -44,7 +44,6 @@
 	[statusItem setImage: offImage];
 	[statusItem setAlternateImage: offHighlightImage];
 	[statusItem setMenu: statusMenu];
-	[statusItem setToolTip: @"tooltip"];
 	[statusItem setHighlightMode: YES];
 	
 	[toggleLogin setState: [self launchOnLogin]];
